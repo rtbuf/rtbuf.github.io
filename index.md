@@ -37,18 +37,7 @@ A procedure has three methods :
  - **stop** called after computation has ended
  - **run** called at each tick of computation
 
-## Procedure reference
-
-### Dynamic Limiter
-Limits the dynamic range of a signal.
-
-### Signal Sinus
-Generates a sinus signal at given frequency.
-Phase starts at zero.
-
-### Signal Square
-Generates a square signal at given frequency and pulse width.
-Phase starts at zero.
+See the [Rtbuf procedure reference](/procedures-reference).
 
 ## Real time buffers
 
