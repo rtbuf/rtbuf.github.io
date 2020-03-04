@@ -2,7 +2,8 @@
 
 rtbuf is BSD licensed ANSI C for realtime signal processing.
 
-See the project page on Github : https://github.com/rtbuf/rtbuf
+See the project page on Github :
+[https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
 
 ## Libraries
 
@@ -48,7 +49,9 @@ A buffer output can be connected to another buffer's input.
 
 Once you have created and connected buffers together you can start computation.
 
-# Contributing
+## Contributing
 
-Fork and pull request at https://github.com/rtbuf/rtbuf
+Fork and send pull requests at
+[https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
+
 Only ISC (BSD) licensed code will be accepted.
