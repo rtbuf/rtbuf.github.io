@@ -5,6 +5,7 @@
 First your program must link to librtbuf
 
 `CFLAGS = -I/usr/local/include/rtbuf`
+
 `LDFLAGS = -L/usr/local/lib -lrtbuf`
 
 ## Initialization
