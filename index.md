@@ -7,6 +7,8 @@ See the project page on Github :
 
 ## Documentation
 
+[Rtbuf Procedures Reference](/procedures-reference)
+
 [Rtbuf C API](/c-api)
 
 [Rtbuf Command line interface](/cli)
