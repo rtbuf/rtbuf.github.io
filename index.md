@@ -55,3 +55,8 @@ Fork and send pull requests at
 [https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
 
 Only ISC (BSD) licensed code will be accepted.
+
+## Authors
+
+Thomas de Grivel <thoxdg@gmail.com>
+Judy Najnudel <judy.najnudel@gmail.com>
