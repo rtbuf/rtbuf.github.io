@@ -55,3 +55,36 @@ using `rtbuf_bind`.
 > `void rtbuf_bind (unsigned int src, unsigned int out, s_rtbuf *dest, unsigned int in)`
 >
 > Binds rtbuf `src` output `out` to rtbuf `dest` input `in`
+
+## Starting up
+
+Once your buffers are connected you can start computation
+with `rtbuf_start`.
+
+It will do a dependency sort on buffers and call their
+procedure's start method on each buffer.
+
+> `int rtbuf_start (void)`
+>
+> Initialize all buffers before calling `rtbuf_run`.
+> 
+> If any buffer fails to start then starting is aborted and
+> the return value is non-zero.
+>
+> If all buffers were started successfully the function returns zero.
+
+## Running
+
+To compute all buffers use `rtbuf_run`.
+
+Usually this function is called repeatedly in a main loop
+until the application closes.
+
+> `int rtbuf_run (void)`
+>
+> Runs computation on all buffers.
+>
+> If computation failed on any buffer the computation is halted
+> and the return value is non-zero.
+>
+> If all buffers were computed successfully the function returns zero.
