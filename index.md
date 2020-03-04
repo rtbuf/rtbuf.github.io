@@ -5,6 +5,14 @@ rtbuf is BSD licensed ANSI C for realtime signal processing.
 See the project page on Github :
 [https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
 
+## Documentation
+
+[Rtbuf C API](/c-api)
+
+[Rtbuf Command line interface](/cli)
+
+[Rtbuf GTK interface](/gtk)
+
 ## Libraries
 
 rtbuf already contains several libraries :
@@ -58,5 +66,5 @@ Only ISC (BSD) licensed code will be accepted.
 
 ## Authors
 
-Thomas de Grivel <thoxdg@gmail.com>
-Judy Najnudel <judy.najnudel@gmail.com>
+ - Thomas de Grivel <thoxdg@gmail.com>
+ - Judy Najnudel <judy.najnudel@gmail.com>
