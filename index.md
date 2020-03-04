@@ -7,13 +7,13 @@ See the project page on Github : https://github.com/rtbuf/rtbuf
 ## Libraries
 
 rtbuf already contains several libraries :
- - *dynamic*  Dynamic range signal processing.
- - *glfw3*    Portable OpenGL, keyboard and mouse library.
- - *music*    Music functions.
- - *portaudio* Portaudio library for portable hardware audio i/o.
- - *signal*   Signal processing, operations on buffers of doubles.
- - *sndio*    OpenBSD sndio library for hardware audio i/o.
- - *synth*    A synthesizer collection.
+ - **dynamic**   Dynamic range signal processing.
+ - **glfw3**     Portable OpenGL, keyboard and mouse library.
+ - **music**     Music functions.
+ - **portaudio** Portaudio library for portable hardware audio i/o.
+ - **signal**    Signal processing, operations on buffers of doubles.
+ - **sndio**     OpenBSD sndio library for hardware audio i/o.
+ - **synth**     A synthesizer collection.
 
 ## Procedures
 
@@ -22,9 +22,9 @@ Each library contains multiple named procedures.
 Each procedure can be seen as a real time buffer object class.
 
 A procedure has three methods :
- - *start* called before computation starts
- - *stop* called after computation has ended
- - *run* called at each tick of computation
+ - **start** called before computation starts
+ - **stop** called after computation has ended
+ - **run** called at each tick of computation
 
 ## Procedure reference
 
