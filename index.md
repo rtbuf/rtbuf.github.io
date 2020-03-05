@@ -4,8 +4,10 @@ It seems that these last years most programming action happens
 in high level programming languages which rely on garbage collectors
 to free memory. The problem of a GC is that it induces latency
 because while the program is stopped collecting free memory it
-stops other processing. Multi-processor safe and real-time garbage
-collectors are not open source and very expensive pieces of software.
+stops other processing so real-time applications are not possible
+with most modern programming languages. Multi-processor safe and
+real-time garbage collectors are not open source and very expensive
+pieces of software.
 
 A possible solution to handle real time computation on a garbage
 collected platform is to offload real-time computations to a C server
