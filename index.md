@@ -57,7 +57,7 @@ make install
 
 ## Procedures
 
-Each library contains multiple named procedures.
+Each library contains several named procedures.
 
 Each procedure can be seen as a real time buffer object class.
 
