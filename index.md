@@ -1,5 +1,3 @@
-# rtbuf : Real time buffers
-
 rtbuf is BSD licensed ANSI C for realtime signal processing.
 
 See the project page on Github :
