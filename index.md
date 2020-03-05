@@ -1,5 +1,16 @@
 **rtbuf** is BSD licensed ANSI C for realtime signal processing.
 
+It seems that these last years most programming action happens
+in high level programming languages which rely on garbage collectors
+to free memory. The problem of a GC is that it induces latency
+because while the program is stopped collecting free memory it
+stops other processing. Multi-processor safe and real-time garbage
+collectors are not open source and very expensive pieces of software.
+
+A possible solution to handle real time computation on a garbage
+collected platform is to offload real-time computations to a C server
+running **rtbuf** which has no garbage collector and is highly portable.
+
 See the project page on Github :
 [https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
 
