@@ -11,6 +11,11 @@ A possible solution to handle real time computation on a garbage
 collected platform is to offload real-time computations to a C server
 running **rtbuf** which has no garbage collector and is highly portable.
 
+Possible applications include audio and video applications, games and
+experimental setups.
+
+Current audience is developers. Status : alpha.
+
 See the project page on Github :
 [https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
 
