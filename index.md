@@ -1,7 +1,20 @@
-rtbuf is BSD licensed ANSI C for realtime signal processing.
+**rtbuf** is BSD licensed ANSI C for realtime signal processing.
 
 See the project page on Github :
 [https://github.com/rtbuf/rtbuf](https://github.com/rtbuf/rtbuf)
+
+## Compilation from sources
+
+```
+./autogen.sh && ./configure && make
+```
+
+## Installation
+
+By default **rtbuf** gets installed into `$HOME/.rtbuf/` prefix.
+```
+make install
+```
 
 ## Documentation
 
@@ -15,7 +28,7 @@ See the project page on Github :
 
 ## Libraries
 
-rtbuf already contains several libraries :
+**rtbuf** already contains several libraries :
  - **dynamic**   Dynamic range signal processing.
  - **glfw3**     Portable OpenGL, keyboard and mouse library.
  - **music**     Music functions.
