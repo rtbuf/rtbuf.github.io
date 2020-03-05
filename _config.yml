@@ -2,3 +2,6 @@ url: https://rtbuf.kmx.io/
 theme: jekyll-theme-slate
 title: rtbuf
 description: real-time buffers
+show_downloads: true
+github:
+  repository_url: https://github.com/rtbuf/rtbuf
