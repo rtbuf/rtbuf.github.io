@@ -5,3 +5,5 @@ description: real-time buffers
 show_downloads: true
 github:
   repository_url: https://github.com/rtbuf/rtbuf
+  tar_url: https://github.com/rtbuf/rtbuf/archive/master.tar.gz
+  zip_url: https://github.com/rtbuf/rtbuf/archive/master.zip
