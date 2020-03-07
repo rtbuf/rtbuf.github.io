@@ -2,6 +2,7 @@
 ## rtbuf Command Line Interface
 
 ```
+
 $ ./rtbuf                                                                 
 rtbuf> help
 Available commands :
@@ -18,4 +19,5 @@ Available commands :
  unbind BUFFER IN            Unbind BUFFER IN.
  help                        Show this help message.
  exit                        Quit RTBUF.
+
 ```
