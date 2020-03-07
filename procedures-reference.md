@@ -1,5 +1,6 @@
 # RTBUF Procedure Reference
 
+-----
 
 ## Dynamic
 Signal dynamic range processing functions.
