@@ -10,6 +10,16 @@ Signal dynamic range processing functions.
 ### Dynamic Limiter
 Limits the dynamic range of a signal.
 
+Inputs :
+ - signal (signal)
+ - gain (signal)
+ - treshold (signal)
+ - attack (signal) "Attack time in seconds."
+ - release (signal) "Release time in seconds."
+
+Outputs :
+ - signal (signal)
+
 
 ## Signal
 Basic signal processing functions.
