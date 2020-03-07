@@ -157,3 +157,34 @@ Inputs :
 Outputs :
  - signal (signal)
  - phase (double)
+
+
+## Synth
+A synthetizer collection.
+
+
+### Synth ADSR
+Attack decay sustain release enveloppe.
+
+Inputs :
+ - note (note) *Note. See rtbuf_music.h*
+ - attack (signal) *Attack time in seconds.*
+ - decay (signal) *Decay time in seconds.*
+ - sustain (signal) *Sustain level.*
+ - release (signal) *Release time in seconds.*
+
+Outputs :
+ - signal (signal)
+
+
+### Synth Synth
+Synthesizer.
+
+Inputs :
+ - envelope (signal) *Connect an enveloppe buffer which will be cloned for each note played.*
+ - oscillator (signal) *Connect an oscillator buffer which will be cloned for each note played.*
+ - note (notes) *Connect a keyboard notes here.*
+
+Outputs :
+ - signal (signal)
+ - note_n (unsigned int) *Number of notes playing.*
