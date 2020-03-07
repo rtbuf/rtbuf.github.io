@@ -4,7 +4,7 @@ This is a work in progress. Please send pull requests.
 
 
 ## Dynamic
-The `dynamic` library contains signal dynamic range processing functions.
+Signal dynamic range processing functions.
 
 
 ### Dynamic Limiter
@@ -12,7 +12,8 @@ Limits the dynamic range of a signal.
 
 
 ## Signal
-The `signal` library contains basic signal processing functions.
+Basic signal processing functions.
+
 See
 [rtbuf_signal.c](https://github.com/rtbuf/rtbuf/blob/master/rtbuf_signal.c)
 for details.
