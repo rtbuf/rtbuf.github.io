@@ -159,6 +159,29 @@ Outputs :
  - phase (double)
 
 
+## Sndio
+OpenBSD
+[sndio](http://www.sndio.org/)
+library for hardware audio I/O.
+
+
+### Sndio input
+TODO
+
+
+### Sndio output
+Stereo output using
+[sndio](http://www.sndio.org/)
+.
+
+Inputs :
+ - left (signal)
+ - right (signal)
+
+Outputs :
+ - samples (short[2048]) *Sample data in sndio format.*
+
+
 ## Synth
 A synthetizer collection.
 
