@@ -1,7 +1,5 @@
 # RTBUF Procedure Reference
 
-This is a work in progress. Please send pull requests.
-
 
 ## Dynamic
 Signal dynamic range processing functions.
@@ -20,6 +18,7 @@ Inputs :
 Outputs :
  - signal (signal)
 
+-----
 
 ## Signal
 Basic signal processing functions.
@@ -158,6 +157,7 @@ Outputs :
  - signal (signal)
  - phase (double)
 
+-----
 
 ## Sndio
 OpenBSD
@@ -181,6 +181,7 @@ Inputs :
 Outputs :
  - samples (short[2048]) *Sample data in sndio format.*
 
+-----
 
 ## Synth
 A synthetizer collection.
