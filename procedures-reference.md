@@ -94,6 +94,25 @@ Outputs :
 ### Signal Hipass5
 Butterworth first, second, third, fourth and fifth order high-pass filters.
 
+Cuts frequencies lower than cutoff.
+
+Inputs :
+ - signal (signal)
+ - cutoff (signal) *Cutoff frequency. [0, 24000]*
+
+Outputs :
+ - signal (signal)
+
+
+### Signal Lopass
+### Signal Lopass2
+### Signal Lopass3
+### Signal Lopass4
+### Signal Lopass5
+Butterworth first, second, third, fourth and fifth order low-pass filters.
+
+Cuts frequencies higher than cutoff.
+
 Inputs :
  - signal (signal)
  - cutoff (signal) *Cutoff frequency. [0, 24000]*
@@ -106,7 +125,24 @@ Outputs :
 Generates a sinus signal at given frequency.
 Phase starts at zero.
 
+Inputs :
+ - frequency (signal) *[0, 24000]*
+ - amplitude (signal) *[0, 1]*
+
+Outputs :
+ - signal (signal)
+ - phase (double)
+
 
 ### Signal Square
 Generates a square signal at given frequency and pulse width.
 Phase starts at zero.
+
+Inputs :
+ - frequency (signal) *[0, 24000]*
+ - amplitude (signal) *[0, 1]*
+ - pulse (signal) *Pulse width. [0, 1]*
+
+Outputs :
+ - signal (signal)
+ - phase (double)
