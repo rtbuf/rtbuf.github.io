@@ -14,8 +14,8 @@ Inputs :
  - signal (signal)
  - gain (signal)
  - treshold (signal)
- - attack (signal) "Attack time in seconds."
- - release (signal) "Release time in seconds."
+ - attack (signal) *Attack time in seconds.*
+ - release (signal) *Release time in seconds.*
 
 Outputs :
  - signal (signal)
