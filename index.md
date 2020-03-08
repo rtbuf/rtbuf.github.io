@@ -38,6 +38,8 @@ make install
 
 [Rtbuf Procedures Reference](/procedures-reference)
 
+[Rtbuf Type Reference](/type-reference)
+
 [Rtbuf C API](/c-api)
 
 [Rtbuf Command line interface](/cli)
