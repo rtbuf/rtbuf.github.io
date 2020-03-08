@@ -56,4 +56,7 @@ t_rtbuf_signal_sample
 void rtbuf_signal_fun (s_rtbuf *rtb,
                        unsigned int in,
                        s_rtbuf_signal_fun *data);
+
+f_rtbuf_signal rtbuf_signal_sample_from_sample;
+f_rtbuf_signal rtbuf_signal_sample_from_signal;
 ```
