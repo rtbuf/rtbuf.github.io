@@ -26,11 +26,11 @@ Outputs :
 library for portable hardware audio I/O.
 
 
-### Portaudio input
+### Portaudio Input
 TODO
 
 
-### Portaudio output
+### Portaudio Output
 Stereo output using
 [PortAudio](http://www.portaudio.org/)
 .
@@ -199,11 +199,11 @@ OpenBSD
 library for hardware audio I/O.
 
 
-### Sndio input
+### Sndio Input
 TODO
 
 
-### Sndio output
+### Sndio Output
 Stereo output using
 [sndio](http://www.sndio.org/)
 .
