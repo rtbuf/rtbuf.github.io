@@ -132,6 +132,18 @@ Outputs :
  - signal (signal)
 
 
+### Signal Sawtooth
+Generates a sawtooth signal at given frequency.
+Phase starts at zero.
+
+Inputs :
+ - frequency (signal) *[0, 24000]*
+ - amplitude (signal) *[0, 1]*
+
+Outputs :
+ - signal (signal)
+
+
 ### Signal Sinus
 Generates a sinus signal at given frequency.
 Phase starts at zero.
@@ -142,7 +154,6 @@ Inputs :
 
 Outputs :
  - signal (signal)
- - phase (double)
 
 
 ### Signal Square
@@ -156,7 +167,6 @@ Inputs :
 
 Outputs :
  - signal (signal)
- - phase (double)
 
 -----
 
