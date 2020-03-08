@@ -21,6 +21,29 @@ Outputs :
 
 -----
 
+## Portaudio
+[PortAudio](http://www.portaudio.com/)
+library for portable hardware audio I/O.
+
+
+### Portaudio input
+TODO
+
+
+### Portaudio output
+Stereo output using
+[PortAudio](http://www.portaudio.org/)
+.
+
+Inputs :
+ - left (signal)
+ - right (signal)
+
+Outputs :
+ - samples (short[2048]) *Sample data in PortAudio format.*
+
+-----
+
 ## Signal
 Basic signal processing functions.
 
