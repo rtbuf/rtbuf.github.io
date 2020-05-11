@@ -11,9 +11,9 @@ Available commands :
  load LIB                    Load library LIB.
  buffers                     List buffers.
  buffer N                    Show buffer N.
- let VAR = buffer N          Define or set variable.
+ let VAR = buffer N          Set variable to buffer.
  new LIB                     Instanciate library procedure.
- let VAR = new LIB           Set variable.
+ let VAR = new LIB           Set variable to new instance.
  delete BUFFER               Unlink and delete BUFFER.
  bind SOURCE OUT DEST IN     Bind SOURCE OUT to DEST IN.
  unbind BUFFER IN            Unbind BUFFER IN.
