@@ -13,7 +13,7 @@ Available commands :
  buffer N                    Show buffer N.
  let VAR = buffer N          Define or set variable.
  new LIB                     Instanciate library procedure.
- set VAR = new LIB           Set variable.
+ let VAR = new LIB           Set variable.
  delete BUFFER               Unlink and delete RTBUF.
  bind SOURCE OUT DEST IN     Bind SOURCE OUT to DEST IN.
  unbind BUFFER IN            Unbind BUFFER IN.
