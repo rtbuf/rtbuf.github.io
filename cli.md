@@ -17,6 +17,8 @@ Available commands :
  delete BUFFER               Unlink and delete BUFFER.
  bind SOURCE OUT DEST IN     Bind SOURCE OUT to DEST IN.
  unbind BUFFER IN            Unbind BUFFER IN.
+ start                       Start run thread.
+ stop                        Stop run thread.
  help                        Show this help message.
  exit                        Quit RTBUF.
 
